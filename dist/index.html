@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Current Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="images.jpg" alt="" width="300px" height="auto" />
+    <div class="app"></div>
+    <h1 class="greet">Weather Information</h1>
+    <div class="form">
+      <form action="" id="form">
+        <div>
+          <label for="region">City</label>
+          <input type="text" name="region" id="region" />
+        </div>
+        <div>
+          <label for="region">API Key</label>
+          <input type="text" name="api" id="api" />
+        </div>
+        <input class="button" type="submit" name="Submit" id="" />
+      </form>
+    </div>
+
+    <div class="results">
+      <p><strong>Region Name: </strong><span class="region-name"></span></p>
+      <p>
+        <strong>Weather Condition: </strong
+        ><span class="weather_condition"></span>
+      </p>
+      <p><strong>Temperature: </strong><span class="temperature"></span></p>
+      <p><strong>Pressure: </strong><span class="pressure"></span></p>
+      <p><strong>Humidity: </strong><span class="humidity"></span></p>
+      <p><strong>Wind Speed: </strong><span class="wind_speed"></span></p>
+    </div>
+
+    <button class="clear_btn button">Clear Data</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Weather Information",
+  "description": "Get the current weather information about a city",
+  "version": "0.1",
+  "browser_action": {
+    "default_title": "Weather Information",
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "128": "logo.png"
+  }
+}
