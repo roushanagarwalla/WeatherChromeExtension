@@ -55,7 +55,7 @@ function display(data) {
   result.style.display = "block";
   region_name.innerHTML = data.name;
   weather_condition.innerHTML = data.weather[0].description;
-  temperature.innerHTML = `${(data.main.temp - 273.15).toFixed(2)} degree Celcius`;
+  temperature.innerHTML = `${(data.main.temp - 273.15).toFixed(2)} degree Celsius`;
   pressure.innerHTML = `${data.main.pressure} hPa`;
   humidity.innerHTML = `${data.main.humidity}%`;
   wind_speed.innerHTML = `${data.wind.speed} m/s`;
